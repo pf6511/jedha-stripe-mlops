@@ -1,0 +1,15 @@
+{
+  "dbt": {
+    "job_id": 101,
+    "conn_id":"dbt_cloud"
+  },
+  "airflow": {
+    "dag_name": "daily-dev",
+    "base_url": "https://dev-airflow.company.com"
+  },
+  "airbyte":{
+    "airbyte_server_conn_id": "airbyte",
+    "stripe_postgresql_connection_id":"7b9dc9aa-6d56-4b48-82ab-5f91e4b7d601",
+    "stripe_mongodb_connection_id":"4f2c11ab-f521-40c0-bef0-a5c1f9984abc"
+  }
+}
