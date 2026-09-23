@@ -1,5 +1,5 @@
 {
-    "name": "Stripe Airflow",
+    "name": "Stripe MLOps",
 
     "build": {
         "dockerfile": "Dockerfile",
